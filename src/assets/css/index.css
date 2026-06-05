@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Colors */
+  --color-primary: #121A6B;
+  --color-secondary: #0f172a;
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-backgroundColor: #FFFFFF;
+
+  /* Fonts */
+  --font-display: "Inter", sans-serif;
+
+  /* Radius */
+  --radius-card: 16px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Breakpoints */
+  --breakpoint-3xl: 1920px;
+}
