@@ -1,11 +1,5 @@
-import Header from "./layout/Header"
-
 const App = () => {
-  return (
-  <div>
-    <Header/>
-  </div>
-  )
-}
+  return <h1>App</h1>;
+};
 
-export default App
+export default App;
