@@ -1,0 +1,17 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const layoutSlice = createSlice({
+  name: "layout",
+  initialState: {
+    isSidebarOpen: false,
+  },
+  reducers: {
+    toggleSidebar: (state) => {
+      state.isSidebarOpen = !state.isSidebarOpen;
+    },
+  },
+});
+
+export const { toggleSidebar } = layoutSlice.actions;
+
+export default layoutSlice.reducer;
