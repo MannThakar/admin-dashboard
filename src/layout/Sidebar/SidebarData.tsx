@@ -1,4 +1,4 @@
-import { Boxes, Clock, Home } from "lucide-react";
+import { Boxes, Clock, Gauge, Home, MessageCircleQuestionMark } from "lucide-react";
 
 const SidebarData = [
   {
@@ -6,6 +6,13 @@ const SidebarData = [
     icon: <Home />,
     title: "Home",
     path: "/home",
+  },
+
+  {
+    id: "dashboard",
+    icon: <Gauge />,
+    title: "Dashborad",
+    path: "/dashboard",
   },
   {
     id: "recent",
@@ -18,6 +25,12 @@ const SidebarData = [
     icon: <Boxes />,
     title: "Environment",
     path: "/environment",
+  },
+  {
+    id: "about",
+    icon: <MessageCircleQuestionMark />,
+    title: "About",
+    path: "/about",
   },
 ];
 

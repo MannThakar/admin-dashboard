@@ -13,11 +13,12 @@ const allRoutes = [
     element: Recent,
     path: "/recent",
   },
-    {
+  {
     name: "environment",
     element: Environment,
     path: "/environment",
   },
+  
 ];
 
 export default allRoutes;

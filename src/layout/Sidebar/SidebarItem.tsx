@@ -27,7 +27,7 @@ const SidebarItem = ({ icon, title, path }: SidebarItemProps) => {
 
         <p
           className={clsx(
-            "overflow-hidden whitespace-nowrap transition-all duration-300 ease-in-out",
+            "overflow-hidden whitespace-nowrap transition-all duration-300 ease-in-out text-sm",
             isSidebarOpen ? "max-w-40 opacity-100" : "max-w-0 opacity-0",
           )}
         >

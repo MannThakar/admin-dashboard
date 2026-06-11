@@ -17,7 +17,9 @@ const Sidebar = () => {
           src={logo}
           className={clsx("w-8 h-8", isSidebarOpen && "w-9 h-9")}
         />
-        {isSidebarOpen && <h2 className="text-xl text-[#00DC33] font-bold">June</h2>}
+        {isSidebarOpen && (
+          <h2 className="text-xl text-[#00DC33] font-bold">June</h2>
+        )}
       </span>
       <button
         className="border border-gray-200 rounded-full p-1.5 absolute -right-3 top-9 z-50 bg-white cursor-pointer"
@@ -35,7 +37,7 @@ const Sidebar = () => {
         <SidebarItem key={item.id} {...item} />
       ))}
 
-      <SidebarFooter/>
+      <SidebarFooter />
     </section>
   );
 };
